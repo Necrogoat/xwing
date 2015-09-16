@@ -140,11 +140,11 @@ exportObj.cardLoaders.Deutsch = () ->
     exportObj.ships = basic_cards.ships
 
     # Move TIE Interceptor to TIE-Abfangjäger
-    exportObj.renameShip 'TIE Interceptor', 'TIE-Abfangjäger'
+    exportObj.renameShip 'TIE Interceptor', 'TIE Abfangjäger'
     # Move Z-95 Headhunter to Z-95-Kopfjäger
     exportObj.renameShip 'Z-95 Headhunter', 'Z-95-Kopfjäger'
     # Move TIE Defender to TIE-Jagdbomber
-    exportObj.renameShip 'TIE Defender', 'TIE-Jagdbomber'
+    exportObj.renameShip 'TIE Defender', 'TIE Jagdbomber'
     # Move Lambda-Class Shuttle to Raumfähre der Lambda-Klasse
     exportObj.renameShip 'Lambda-Class Shuttle', 'Raumfähre der Lambda-Klasse'
     # Move GR-75 Medium Transport to Medium-Transporter GR-75
@@ -162,7 +162,7 @@ exportObj.cardLoaders.Deutsch = () ->
     # Move Kihraxz Fighter to Kihraxz-Jäger
     exportObj.renameShip 'Kihraxz Fighter', 'Kihraxz-Jäger'
     # Move TIE Punisher to TIE-Vergelter
-    exportObj.renameShip 'TIE Punisher', 'TIE-Vergelter'
+    exportObj.renameShip 'TIE Punisher', 'TIE Vergelter'
     # Move StarViper to SternenViper
     exportObj.renameShip 'StarViper', 'SternenViper'
 
@@ -253,7 +253,7 @@ exportObj.cardLoaders.Deutsch = () ->
         "Kath Scarlet":
             text: """Wenn du angreifst und der Verteidiger mindestens 1 %CRIT% negiert, erhält er 1 Stressmarker."""
         "Boba Fett":
-            text: """Sobald du ein Drehmanöver (%BANKLEFT% oder %BANKRIGHT%) aufdeckst, darfst du das Drehmanöver mit gleicher eschwindigkeit, aber anderer Richtung, auf deinem Rad nachträglich einstellen."""
+            text: """Sobald du ein Drehmanöver (%BANKLEFT% oder %BANKRIGHT%) aufdeckst, darfst du das Drehmanöver mit gleicher Geschwindigkeit, aber anderer Richtung, auf deinem Rad nachträglich einstellen."""
         "Krassis Trelix":
             text: """Wenn du mit einer Sekundärwaffe angreifst, darfst du 1 Angriffswürfel neu würfeln."""
         "Bounty Hunter":
@@ -490,7 +490,7 @@ exportObj.cardLoaders.Deutsch = () ->
         '"Redline"':
             name: '"Rote Linie"'
             ship: "TIE-Vergelter"
-            text: """Du darfst 2 Zielerfassungen auf demselben Schiff haben. Sobald du ein Schiff in die Zielerfassung nimmst, darfst du es ein zweites Mal in die Zielerfassung nehmen."""
+            text: """Du darfst 2 Zielerfassungen auf dem selben Schiff haben. Sobald du ein Schiff in die Zielerfassung nimmst, darfst du es ein zweites Mal in die Zielerfassung nehmen."""
         '"Deathrain"':
             name: '"Todesregen"'
             ship: "TIE-Vergelter"
@@ -500,7 +500,7 @@ exportObj.cardLoaders.Deutsch = () ->
         "Zertik Strom":
             text: """Sobald feindliche Schiffe in Reichweite 1 angreifen, können sie ihren Kampfvorteil durch Reichweite nicht hinzufügen."""
         "Lieutenant Colzet":
-            text: """Zu Beginn der Endphase darfst du einen Zielerfassungsmarker , den du auf einem feindlichen Schiff liegen hast, ausgeben, um 1 seiner verdeckten Schadenskarten (zufällig bestimmt) aufzudecken."""
+            text: """Zu Beginn der Endphase darfst du einen Zielerfassungsmarker, den du auf einem feindlichen Schiff liegen hast, ausgeben, um 1 seiner verdeckten Schadenskarten (zufällig bestimmt) aufzudecken."""
         "Latts Razzi":
             text: """Sobald ein freundliches Schiff einen Angriff deklariert und du den Verteidiger in der Zielerfassung hast, kannst du einen Zielerfassungsmarker ausgeben, um die Wendigkeit des Verteidigers für diesen Angriff um 1 zu senken."""
         "Graz the Hunter":
@@ -836,7 +836,7 @@ exportObj.cardLoaders.Deutsch = () ->
             text: """%DE_IMPERIALONLY%%LINEBREAK%<strong>Aktion:</strong> Wähle bis zu 2 freundliche Schiffe in Reichweite 1-2 und gib ihnen je 1 Fokusmarker. Dann erhältst du 1 Stressmarker."""
         "Targeting Coordinator":
             name: "Zielkoordinator"
-            text: """<strong>Energie:</strong> Du kannst 1 Energie ausgeben, um 1 freundliches Schiff in Reichweite1-2 zu wählen. Nimm dann ein Schiff in die Zielerfassung und gibt den blauen Zielerfassungsmarker dem gewählten Schiff."""
+            text: """<strong>Energie:</strong> Du kannst 1 Energie ausgeben, um 1 freundliches Schiff in Reichweite 1-2 zu wählen. Nimm dann ein Schiff in die Zielerfassung und gibt den blauen Zielerfassungsmarker dem gewählten Schiff."""
         "Lone Wolf":
             name: "Einsamer Wolf"
             text: """Wenn keine freundlichen Schiffe in Reichweite 1-2 sind, darfst du beim Angreifen und Verteidigen 1 gewürfelte Leerseite neu würfeln."""
@@ -1042,7 +1042,7 @@ exportObj.cardLoaders.Deutsch = () ->
             text: """Sobald du verteidigst und jenseits von Reichweite 2 oder außerhalb des Feuerwinkels des Angreifers bist, darfst du 1 deiner Leerseiten in ein %EVADE% ändern. Du darfst diese Karte nur ausrüsten, wenn du das %BOOST%-Aktionssymbol hast."""
         "Twin Ion Engine Mk. II":
             name: "Zwillings-Ionenantrieb MK. II"
-            text: """Du darfst alle Drehmanöver (%BANKLEFT% oder %BANKRIGHT%) als grüne Manöver behandeln."""
+            text: """%DE_TIEONLY%%LINEBREAK%Du darfst alle Drehmanöver (%BANKLEFT% oder %BANKRIGHT%) als grüne Manöver behandeln."""
         "Maneuvering Fins":
             name: "Steuertragflächen"
             text: """Sobald du ein Wendemanöver (%TURNLEFT% oder %TURNRIGHT%) aufdeckst, darfst du das entsprechende Drehmanöver (%BANKLEFT% oder %BANKRIGHT%) mit gleicher Geschwindigkeit auf deinem Manöverrad einstellen."""
